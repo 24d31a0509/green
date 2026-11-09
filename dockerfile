@@ -1,5 +1,6 @@
 pipeline
 {
+agent any
 stages
 {
 stage("build")
@@ -13,7 +14,7 @@ stage("text")
 {
 steps
 {
-echo"teting the project"
+echo"testing the project"
 }
 }
 stage("deploy")
